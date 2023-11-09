@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { describe, it, expect } from "vitest";
-import userEvent from "@testing-library/user-event";
+import { describe, it, expect } from "vitest"; //allows these to be defined and to test the enviroment properly
+import userEvent from "@testing-library/user-event"; //user event pulled straight from npm install file
 import App from "./App";
 
 describe("App component", () => {
